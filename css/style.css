@@ -1,0 +1,174 @@
+/*=====================UNIVERSALS=====================================*/
+@import url('https://fonts.googleapis.com/css?family=Courgette|Inconsolata|Merriweather');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-background {
+    background-color: #e40007;
+}
+.white-text {
+    color: #fff;
+}
+.inline-block {
+    display: inline-block;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.half {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+/*======================HEADER=======================================*/
+header {
+    padding: 25px 20px;
+    height: 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+span h4 {
+    float: left;
+    color: #fff;
+    font-family: "Times New Roman", Times, Serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+li {
+    margin: 0 15px;
+}
+header>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+/*=======================Hero Section==========================*/
+#hero {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/bruce-lee.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fff;
+    margin-top: 7%;
+}
+#hero>h1 {
+    margin: 0;
+    color: #e40007;
+    text-align: center;
+    position: relative;
+    top: 42%;
+    font-family: 'Courgette', cursive;
+    font-size: 65px;
+}
+aside h2 {
+    font-family: 'Inconsolata', monospace;
+}
+/*=======================ASIDE SECTION===========================*/
+aside {
+    width: 29.5%;
+    border-right: 2px solid #fff;
+    background-color: #061b23;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links {
+    padding-left: 0;
+    
+}
+
+.blog-link {
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 18px;
+}
+
+.blog-link:hover {
+    background-color: #FFDE0A;
+    
+}
+
+aside, main {
+    height: 425px;
+}
+
+/*========================MAIN SECTION=============================*/
+main {
+    width: 68%;
+    background-color: #ff6347;
+    padding: 0 10px;
+}
+main h2, main>h4 {
+    text-align: center;
+}
+#main-wrapper {
+    margin-bottom: 10px;
+}
+#main-content-paragraph {
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+}
+main h2 {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+p a {
+    color: #54d9f1;
+    font-size: 18px;
+}
+/*============================VIDEO==================================*/
+#video {
+    text-align: center;
+}
+iframe {
+    height: 720px;
+    width: 1280px;
+}
+/*==============================FOOTER SECTION=======================*/
+footer {
+    height: 150px;
+    background-color: #73c7e7;
+    clear: both;
+    border-top: 4px solid #fff;
+}
+
+#social-media-wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a i {
+    color: #fff;
+    padding-left: 20px;
+}
+#copyright {
+    color: #ffde0a;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+/*==========================SECTION TAGS========================*/
+section {
+    margin-top: 80px;
+    float: left;
+    width: 48%;
+    text-align: center;
+}
+/*===============================CONTACT FORM IFRAME==================*/
+#contact-form-wrapper {
+    background-color: #eee;
+}
+/*=============================MAP IFRAME SECTION=====================*/
+
+iframe {
+    width: 600px;
+    height: 600px;
+}
+
+/*===========================PHYSICAL ADRESS======================*/
+address {
+    padding-top: 250px;
+}
+button {
+    background-color: #FFC0CB;
+    color: #ff0000;
+}
