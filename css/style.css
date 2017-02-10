@@ -80,10 +80,11 @@ header>ul>li>a {
     font-family: 'Courgette', cursive;
     font-size: 65px;
 }
+/*=======================ASIDE SECTION===========================*/
 aside h2 {
     font-family: 'Inconsolata', monospace;
 }
-/*=======================ASIDE SECTION===========================*/
+
 aside {
     width: 29.5%;
     border-right: 2px solid #fff;
